@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  background-image: url("../Resources/bg.jpg");
+  width: 100%;
+  height: 100%;
+  min-height: 350%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar .navbar-brand {
+  color: #fff;
+  letter-spacing: 15px;
+  transition: 0.3s ease-in-out;
+  font-size: 22px;
+}
+.navbar .navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.473);
+}
+.nav-item,
+.nav-link {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.699);
+  border-bottom: 2px solid;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover {
+  color: #fff;
+  border-color: #fff;
+}
+.jumbotron {
+  min-height: 90vh;
+  color: #fff;
+  background-color: #343a40;
+}
+.lead,
+h5 {
+  color: #fff;
+}
+h1 {
+  text-align: center;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-whatsapp,
+.fa-envelope {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.486);
+  color: #fff;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover,
+.fa-envelope:hover {
+  color: #fff;
+  border-color: #fff;
+}

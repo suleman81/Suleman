@@ -55,7 +55,7 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid">
-      <div class="container animated fadeInUp">
+      <div class="container animated fadeInUp mt-5">
         <h1 class="display-4">&lt;Hello, world! /&gt;</h1>
         <p class="lead mt-5">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -78,7 +78,7 @@
     </section>
     <div class="container bg-dark">
       <div class="row">
-        <div class="col-sm-1 col-lg-5 col-md-1">
+        <div class="col-12 col-md-6">
           <p class="lead p-4 mt-2">
             <strong>Lorem Ipsum</strong> is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been the industry's
@@ -92,7 +92,7 @@
             Ipsum.
           </p>
         </div>
-        <div class="col-md-1 col-sm-1 col-lg-7 p-2">
+        <div class="col-12 col-md-6 p-2">
           <h2 class="mt-4" style="color: #fff;">Skills:</h2>
           <hr class="my-4 bg-light" />
           <div class="container">
@@ -290,34 +290,7 @@
         <a href="#">Terms</a>
       </p>
     </footer>
-    <script>
-      $(document).ready(function () {
-        // Add smooth scrolling to all links
-        $("a").on("click", function (event) {
-          // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
 
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $("html, body").animate(
-              {
-                scrollTop: $(hash).offset().top,
-              },
-              800,
-              function () {
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              }
-            );
-          } // End if
-        });
-      });
-    </script>
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();

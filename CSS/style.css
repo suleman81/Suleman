@@ -3,6 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+/** scollbar behavior & color **/
+*::-webkit-scrollbar {
+  width: 15px;
+}
+*::-webkit-scrollbar-track {
+  background: #343a40;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  border: 3px solid #343a40;
+}
+/*******************************/
 .head {
   background-image: url("../Resources/bg.jpg");
   width: 100%;
@@ -36,6 +49,11 @@
   min-height: 90vh;
   color: #fff;
   background-color: #343a40;
+}
+.jumbotron p{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 .lead,
 h5 {
